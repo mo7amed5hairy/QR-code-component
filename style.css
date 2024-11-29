@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&display=swap');
+:root
+{
+    --main-color: #d6e2f0;
+    --white-color: #ffffff;
+    --paragraph-color: #68778d;
+    --heading-color: #1f3251;
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body
+{
+    background-color: var(--main-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* card */
+
+.card
+{
+    width: 270px;
+    margin: auto;
+    background-color: var(--white-color);
+    padding: 10px 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 0px var(--main-color);
+}
+
+
+.card > .card-img
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card > .card-img > img
+{
+    width: 250px;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+
+.card h1
+{
+
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--heading-color);
+    text-align: center;
+    padding: 18px 30px;
+}
+
+.card p
+{
+  
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--paragraph-color);
+    text-align: center;
+    padding: 0 22px;
+    margin-bottom: 20px;
+
+}
+/* card */
+
+
